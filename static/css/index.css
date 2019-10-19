@@ -1,0 +1,36 @@
+.index-main{
+    background: #0084ff;
+    width: 800px;
+    min-height: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.index-main ul{
+    margin: 50px;
+}
+.index-main>h2{
+    margin: 30px;
+    text-align: center;
+}
+.index-main>a{
+
+    margin-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 6px;
+    line-height: 40px;
+    padding: 10px 10px;
+    background: #333;
+
+
+}
+.index-main ul li{
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+}

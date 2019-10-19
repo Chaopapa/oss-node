@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OSS图片管理系统</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+<body>
+    <div class="index-main">
+        <h2>图片管理系统</h3>
+        <a href="#">
+            <span>
+                <%= addDesc %>
+            </span>
+        </a>
+        <ul class="index-list">
+            <% buckets.forEach(item=>{ %>
+            <li data-name="<%= item.name %>">
+               <%= item.name %>
+            </li> 
+            <% })%> 
+        </ul>
+    </div>
+
+
+    <script src="../static/js/jquery-1.8.3/jquery-1.8.3.min.js"></script>
+    <script src="../static/js/index.js"></script>
+</body>
+</html>
